@@ -1,32 +1,37 @@
 import React, { useState } from "react";
-import { Container, Segment, Menu, Grid } from "semantic-ui-react";
-// Import the JSON data from totalforms.json
+import { Segment, Menu, Grid } from "semantic-ui-react";
 import jsonData from "./totalforms.json";
 
 const Form = () => {
   const [activeItem, setActiveItem] = useState("Teaching Form");
+  const [selectedDocument, setSelectedDocument] = useState(null);
 
   const handleItemClick = (e, { name }) => setActiveItem(name);
+  const handleLinkClick = (link) => setSelectedDocument(link);
 
   const styles = {
+    bigContainer: {
+      padding: "20px",
+      maxWidth: "1660px",
+      margin: "auto",
+      height: "85vh",
+      display: "flex",
+    },
     formContainer: {
-      maxWidth: "600px",
-      padding: "136px",
+      width: "900px",
+      padding: "20px",
       textAlign: "left",
-      marginLeft: "0px", // Keep left margin at 0
-      marginTop: "-67px",
-      marginRight: "auto",
-      marginBottom: "0px", // Optional: adjust as needed
+      marginRight: "20px",
     },
     colorBlock: {
       width: "100%",
-      height: "35px", // Height of the color blocks
+      height: "35px",
       display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
-      padding: "0 10px", // Add padding for better spacing
-      border: "1px solid #cfcdcd", // Add black border
-      boxSizing: "border-box", // Ensure padding and border are included in the width/height
+      padding: "0 10px",
+      border: "1px solid #cfcdcd",
+      boxSizing: "border-box",
     },
     block1: { backgroundColor: "#D1CCE6aa" },
     block2: { backgroundColor: "#F7D1C5aa" },
@@ -36,137 +41,76 @@ const Form = () => {
     block6: { backgroundColor: "#B8CDEBaa" },
     block7: { backgroundColor: "#F9C3A6aa" },
     block8: { backgroundColor: "#D4D4D4aa" },
+    iframe: {
+      width: "100%",
+      height: "100%",
+      border: "none",
+    },
   };
 
-  // Create colorBlocks array based on the number of items in the jsonData
   const colorBlocks = jsonData.map((item, index) => ({
     id: index + 1,
-    style: styles[`block${(index % 8) + 1}`], // Cycle through 8 blocks
+    style: styles[`block${(index % 8) + 1}`],
     doc: item.doc,
     pdf: item.pdf,
     name: item.name,
   }));
 
   return (
-    <Container style={styles.formContainer}>
-      {/* Menu for navigating between forms */}
-      <Menu pointing>
-        <Menu.Item
-          name="Teaching Form"
-          active={activeItem === "Teaching Form"}
-          onClick={handleItemClick}
-        />
-        <Menu.Item
-          name="Non-Teaching Form"
-          active={activeItem === "Non-Teaching Form"}
-          onClick={handleItemClick}
-        />
-        <Menu.Item
-          name="Students Form"
-          active={activeItem === "Students Form"}
-          onClick={handleItemClick}
-        />
-      </Menu>
+    <Segment style={styles.bigContainer}>
+      {/* Left container for form navigation */}
+      <div style={styles.formContainer}>
+        <Menu pointing>
+          <Menu.Item
+            name="Teaching Form"
+            active={activeItem === "Teaching Form"}
+            onClick={handleItemClick}
+          />
+          <Menu.Item
+            name="Non-Teaching Form"
+            active={activeItem === "Non-Teaching Form"}
+            onClick={handleItemClick}
+          />
+          <Menu.Item
+            name="Students Form"
+            active={activeItem === "Students Form"}
+            onClick={handleItemClick}
+          />
+        </Menu>
 
-      {/* Render the selected form based on active menu item */}
-      <Segment style={{ marginLeft: "0px" }}>
-        {" "}
-        {/* Add left margin to Segment */}
-        {activeItem === "Teaching Form" && (
-          <Grid>
-            {colorBlocks.map((block) => (
-              <Grid.Row key={block.id} width={4} style={{ padding: 0 }}>
-                <div style={{ ...styles.colorBlock, ...block.style }}>
-                  {/* Display the name from the JSON data */}
-                  <span>{block.name}</span>
-                  <div>
-                    {/* Display document link */}
-                    <a
-                      href={block.doc}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Document
-                    </a>
-                    {" | "}
-                    {/* Display PDF link */}
-                    <a
-                      href={block.pdf}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      PDF
-                    </a>
-                  </div>
+        <div>
+          {colorBlocks.map((block) => (
+            <Grid.Row key={block.id} width={4} style={{ padding: 0 }}>
+              <div style={{ ...styles.colorBlock, ...block.style }}>
+                <span>{block.name}</span>
+                <div>
+                  <a href="#" onClick={() => handleLinkClick(block.doc)}>
+                    Document
+                  </a>
+                  {" | "}
+                  <a href="#" onClick={() => handleLinkClick(block.pdf)}>
+                    PDF
+                  </a>
                 </div>
-              </Grid.Row>
-            ))}
-          </Grid>
+              </div>
+            </Grid.Row>
+          ))}
+        </div>
+      </div>
+
+      {/* Right container for PDF viewer */}
+      <div style={{ flex: 2, height: "95%" }}>
+        {selectedDocument ? (
+          <iframe
+            src={selectedDocument}
+            title="Document Viewer"
+            style={styles.iframe}
+          />
+        ) : (
+          <p>Select a document to view here.</p>
         )}
-        {activeItem === "Non-Teaching Form" && (
-          <Grid>
-            {colorBlocks.map((block) => (
-              <Grid.Row key={block.id} width={4} style={{ padding: 0 }}>
-                <div style={{ ...styles.colorBlock, ...block.style }}>
-                  {/* Display the name from the JSON data */}
-                  <span>{block.name}</span>
-                  <div>
-                    {/* Display document link */}
-                    <a
-                      href={block.doc}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Document
-                    </a>
-                    {" | "}
-                    {/* Display PDF link */}
-                    <a
-                      href={block.pdf}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      PDF
-                    </a>
-                  </div>
-                </div>
-              </Grid.Row>
-            ))}
-          </Grid>
-        )}
-        {activeItem === "Students Form" && (
-          <Grid>
-            {colorBlocks.map((block) => (
-              <Grid.Row key={block.id} width={4} style={{ padding: 0 }}>
-                <div style={{ ...styles.colorBlock, ...block.style }}>
-                  {/* Display the name from the JSON data */}
-                  <span>{block.name}</span>
-                  <div>
-                    {/* Display document link */}
-                    <a
-                      href={block.doc}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Document
-                    </a>
-                    {" | "}
-                    {/* Display PDF link */}
-                    <a
-                      href={block.pdf}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      PDF
-                    </a>
-                  </div>
-                </div>
-              </Grid.Row>
-            ))}
-          </Grid>
-        )}
-      </Segment>
-    </Container>
+      </div>
+    </Segment>
   );
 };
 
