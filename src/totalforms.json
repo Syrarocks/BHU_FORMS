@@ -1,90 +1,692 @@
 [
   {
-    "name": "asd",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 13,
+    "name": "Adjustment bill",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Adjustment_bill.pdf",
+    "category": "Teaching",
+    "sub_category": "Bill"
   },
   {
-    "name": "fdsd",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
-  },
-  {
-    "name": "sdfsd",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
-  },
-  {
-    "name": "dsf",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
-  },
-  {
-    "name": "erter",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
-  },
-  {
-    "name": "bfvjhnfg",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 14,
+    "name": "Adjustment challan form (part 1 & part 2)",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Adjustment_challan_form__part_1__part_2.pdf",
+    "category": "Teaching",
+    "sub_category": "Challan"
   },
 
   {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 87,
+    "name": "Family Pension form (part 2)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Family_Pension_form_part_2.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Family_Pension_form_part_2.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
   },
 
   {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 86,
+    "name": "Family pension form (part 1)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Family_pension_form_part_1.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Family_pension_form_part_1.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
   },
 
   {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 85,
+    "name": "Sanction of leave, permission for going abroad",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Sanction_of_leave_permission_for_going_abroad.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Sanction_of_leave_permission_for_going_abroad.pdf",
+    "category": "Teaching",
+    "sub_category": "Leave"
   },
 
   {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 84,
+    "name": "Restoration of commuted pension",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Restoration_of_commuted_pension.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Restoration_of_commuted_pension.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
   },
 
   {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
-  },
-  {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
-  },
-  {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 83,
+    "name": "Request proforma for return of sale deed",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Request_proforma_for_return_of_sale_deed.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Request_proforma_for_return_of_sale_deed.pdf",
+    "category": "Teaching",
+    "sub_category": "Proforma"
   },
 
   {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 82,
+    "name": "Reimbursement claim form for outstation treatment",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Reimbursement_claim_form_for_outstation_treatment.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Reimbursement_claim_form_for_outstation_treatment.pdf",
+    "category": "Teaching",
+    "sub_category": null
   },
 
   {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 81,
+    "name": "Quarterly progress report I II (revised)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Quarterly_progress_report_I_II_revised.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Quarterly_progress_report_I_II_revised.pdf",
+    "category": "Teaching",
+    "sub_category": "Report"
   },
 
   {
-    "name": "xyzzz",
-    "doc": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf",
-    "pdf": "https://namaste.bhu.edu.in/media/document/ordinance/PHD.pdf"
+    "id": 80,
+    "name": "Provident fund withdrawal form",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Provident_fund_withdrawal_form.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Provident_fund_withdrawal_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Provident Fund"
+  },
+  {
+    "id": 79,
+    "name": "Provident fund claim form (retirement)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Provident_fund_claim_form_retirement.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Provident_fund_claim_form_retirement.pdf",
+    "category": "Teaching",
+    "sub_category": "Retirement"
+  },
+  {
+    "id": 78,
+    "name": "Proforma for treating doctors only",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Proforma_for_treating_doctors_only.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_for_treating_doctors_only.pdf",
+    "category": "Teaching",
+    "sub_category": "Proforma"
+  },
+
+  {
+    "id": 77,
+    "name": "Proforma for refund of investigation & room rent",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Proforma_for_refund_of_investigation__room_rent.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_for_refund_of_investigation__room_rent.pdf",
+    "category": "Teaching",
+    "sub_category": "Proforma"
+  },
+
+  {
+    "id": 76,
+    "name": " Proforma for providing information with regard to the past services",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Proforma_for_providing_information_with_regard_to_the_past_services.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_for_providing_information_with_regard_to_the_past_services.pdf",
+    "category": "Teaching",
+    "sub_category": "Proforma"
+  },
+  {
+    "id": 75,
+    "name": "Proforma for issue of record",
+    "doc": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_for_issue_of_record.pdf",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_for_issue_of_record.pdf",
+    "category": "Teaching",
+    "sub_category": "Proforma"
+  },
+
+  {
+    "id": 74,
+    "name": "Proforma for attending orientation refresher training courses",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Proforma_for_issue_of_record.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_for_issue_of_record.pdf",
+    "category": "Teaching",
+    "sub_category": "Proforma"
+  },
+
+  {
+    "id": 73,
+    "name": "Pensioner bank form (in hindi)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Pensioner_bank_form_in_hindi.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Pensioner_bank_form_in_hindi.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+
+  {
+    "id": 72,
+    "name": "Pensioner bank form (in english)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Pensioner_bank_form_in_english.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Pensioner_bank_form_in_english.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+
+  {
+    "id": 71,
+    "name": "Outside employment form",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Outside_employment_form.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Outside_employment_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Employment"
+  },
+
+  {
+    "id": 70,
+    "name": "Medical reimbursement outdoor form",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Medical_reimbursement_outdoor_form.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Medical_reimbursement_outdoor_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Medical"
+  },
+  {
+    "id": 68,
+    "name": "Life Certificate form",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Life_Certificate_form.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Life_Certificate_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Certificate"
+  },
+
+  {
+    "id": 61,
+    "name": "Form of Nomination (2)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Form_of_Nomination_2.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Form_of_Nomination_2.pdf",
+    "category": "Teaching",
+    "sub_category": "Nomination"
+  },
+
+  {
+    "id": 62,
+    "name": "Form of Nomination (3)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Form_of_Nomination_3.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Form_of_Nomination_3.pdf",
+    "category": "Teaching",
+    "sub_category": "Nomination"
+  },
+  {
+    "id": 63,
+    "name": "Form of Nomination (4)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Form_of_Nomination_4.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Form_of_Nomination_4.pdf",
+    "category": "Teaching",
+    "sub_category": "Nomination"
+  },
+  {
+    "id": 64,
+    "name": "Form of Nomination (5)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Form_of_Nomination_5.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Form_of_Nomination_5.pdf",
+    "category": "Teaching",
+    "sub_category": "Nomination"
+  },
+  {
+    "id": 65,
+    "name": "Form of Nomination (6)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Form_of_Nomination_6.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Form_of_Nomination_6.pdf",
+    "category": "Teaching",
+    "sub_category": "Nomination"
+  },
+  {
+    "id": 66,
+    "name": "Form of Nomination (7)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Form_of_Nomination_7.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Form_of_Nomination_7.pdf",
+    "category": "Teaching",
+    "sub_category": "Nomination"
+  },
+  {
+    "id": 67,
+    "name": "Form of Nomination (8)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Form_of_Nomination_8.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Form_of_Nomination_8.pdf",
+    "category": "Teaching",
+    "sub_category": "Nomination"
+  },
+  {
+    "id": 59,
+    "name": "Estimate of treatment cost",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Estimate_of_treatment_cost.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Estimate_of_treatment_cost.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+
+  {
+    "id": 58,
+    "name": "Compensatory & detention leave proforma",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Compensatory__detention_leave_proforma.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Compensatory__detention_leave_proforma.pdf",
+    "category": "Teaching",
+    "sub_category": "Proforma"
+  },
+
+  {
+    "id": 57,
+    "name": "Bank form for the pensioner",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Bank_form_for_the_pensioner.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Bank_form_for_the_pensioner.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+
+  {
+    "id": 56,
+    "name": "Application form for sanction of festival advance",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_form__for_sanction__of_festival_advance.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_form__for_sanction__of_festival_advance.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+
+  {
+    "id": 55,
+    "name": "Application for leave",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_for_leave.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_leave.pdf",
+    "category": "Teaching",
+    "sub_category": "Leave"
+  },
+  {
+    "id": 54,
+    "name": "Application for issuing NOC (no objection certificate) for obtaining passport",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_for_issuing_NOC_no_objection_certificate_for_obtaining_passport_i0R8HN6.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_issuing_NOC_no_objection_certificate_for_obtaining_passport_i0R8HN6.pdf",
+    "category": "Teaching",
+    "sub_category": "Certificate"
+  },
+
+  {
+    "id": 53,
+    "name": "Application for incentive for PhD & M Phil",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_for_incentive_for_PhD__M_Phil.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_incentive_for_PhD__M_Phil.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 52,
+    "name": "Application for final payment of Provident fund",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_for_issuing_NOC_no_objection_certificate_for_obtaining_passport_i0R8HN6.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_issuing_NOC_no_objection_certificate_for_obtaining_passport_i0R8HN6.pdf",
+    "category": "Teaching",
+    "sub_category": "Provident Fund"
+  },
+
+  {
+    "id": 49,
+    "name": "Allotment and Change of Residential Accommodation form",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Allotment_and_Change_of_Residential_Accommodation_form.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Allotment_and_Change_of_Residential_Accommodation_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Accommodation"
+  },
+  {
+    "id": 51,
+    "name": "Application for family pension on the death of servant",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_for_family_pension_on_the_death_of_servant.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_family_pension_on_the_death_of_servant.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 50,
+    "name": "Application for deduction from the salary",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_for_deduction_from_the_salary.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_deduction_from_the_salary.pdf",
+    "category": "Teaching",
+    "sub_category": "Salary"
+  },
+  {
+    "id": 48,
+    "name": "Retired staff identity card",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Retired_staff_identity_card_g2qTzXF.pdf",
+    "category": "Teaching",
+    "sub_category": "ID card"
+  },
+  {
+    "id": 47,
+    "name": "Retired staff identity card (new pension scheme)",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Retired_staff_identity_card_new_pension_scheme.pdf",
+    "category": "Teaching",
+    "sub_category": "ID card"
+  },
+  {
+    "id": 46,
+    "name": "Request for change correction in subscriber and reissue of I-Pin T-Pin PRAN Card",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Request_for_change_correction_in_subscriber__and_reissue_of_I-Pin_T-Pin_PRAN_Card.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 45,
+    "name": "Regular staff identity card",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Retired_staff_identity_card.pdf",
+    "category": "Teaching",
+    "sub_category": "ID card"
+  },
+  {
+    "id": 44,
+    "name": "Registration form for internet facility for teachers & class A only",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Registration_form_for_internet_facility_for_teachers__class_A_only.pdf",
+    "category": "Teaching",
+    "sub_category": "Internet"
+  },
+  {
+    "id": 42,
+    "name": "Registration form for internet facility for research scholars",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Registration_form_for_internet_facility_for_research_scholars.pdf",
+    "category": "Student",
+    "sub_category": "Internet"
+  },
+  {
+    "id": 41,
+    "name": "Recoupment of Imprest",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Recoupment_of_Imprest.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 40,
+    "name": "Proforma to be submitted along with advance bill",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_to_be_submitted_along_with_advance_bill.pdf",
+    "category": "Teaching",
+    "sub_category": "Proforma"
+  },
+  {
+    "id": 60,
+    "name": "Premature Withdrawal Form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Premature_Withdrawal_Form.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 38,
+    "name": "Patent form (1, 2 & 3)",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Patent_form_1_2__3.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 37,
+    "name": "Partial withdrawal form for tier 1 account under National Pension System",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Partial_withdrawal_form_for_tier_1_account_under_National_Pension_System.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 36,
+    "name": "NPS (National Pension System) correction form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/NPS_National_Pension_System_correction_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 35,
+    "name": "NPS (National Pension System) superannuation form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/NPS__National_Pension_System_superannuation_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 34,
+    "name": "NPS (National Pension System) shifting form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/NPS__National_Pension_System_shifting_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 33,
+    "name": "NPS (National Pension System) premature resignation form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/NPS__National_Pension_System_premature_resignation_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 32,
+    "name": "NPS (National Pension System) partial or conditional withdrawal",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/NPS__National_Pension_System_partial_or_conditional_withdrawal.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 31,
+    "name": "NPS (National Pension System) nomination form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/NPS__National_Pension_System_nomination_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 30,
+    "name": "NPS (National Pension System) death form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/NPS__National_Pension_System_death_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+
+  {
+    "id": 29,
+    "name": "Normal withdrawal form (Retirement)",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/normal_withdrawal_retirement.pdf",
+    "category": "Teaching",
+    "sub_category": "Retirement"
+  },
+  {
+    "id": 28,
+    "name": "No objection for settlement of accumulated pension wealth in NPS",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/no_objection_nps.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 27,
+    "name": "National pension system form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/nps_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 26,
+    "name": "National pension system - subscriber registration form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/nps_subscriber_registration.pdf",
+    "category": "Teaching",
+    "sub_category": "Pension"
+  },
+  {
+    "id": 25,
+    "name": "Leave of absence on duty for attending orientation or refresher courses",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/leave_orientation_courses.pdf",
+    "category": "Teaching",
+    "sub_category": "Leave"
+  },
+  {
+    "id": 24,
+    "name": "KYC Certification",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/kyc_certification.pdf",
+    "category": "Teaching",
+    "sub_category": "Certificate"
+  },
+  {
+    "id": 23,
+    "name": "Death withdrawal form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/death_withdrawal_form.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 22,
+    "name": "Contractual staff identity card",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/contractual_staff_id_card.pdf",
+    "category": "Non-Teaching",
+    "sub_category": "ID card"
+  },
+  {
+    "id": 21,
+    "name": "Child educational allowance",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/child_educational_allowance.pdf",
+    "category": "Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 20,
+    "name": "Bill for direct payment by finance section",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/bill_direct_payment.pdf",
+    "category": "Teaching",
+    "sub_category": "Bill"
+  },
+
+  {
+    "id": 19,
+    "name": "BHU Email Form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/bhu_email_form.pdf",
+    "category": "Teaching",
+    "sub_category": "Email ID"
+  },
+  {
+    "id": 18,
+    "name": "Application for withdrawal advance from provident fund",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/pf_withdrawal_advance.pdf",
+    "category": "Teaching",
+    "sub_category": "Provident Fund"
+  },
+  {
+    "id": 17,
+    "name": "Application for leave of absence",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/leave_absence.pdf",
+    "category": "Teaching",
+    "sub_category": "Leave"
+  },
+  {
+    "id": 16,
+    "name": "Application for issuing NOC (no objection certificate) for obtaining passport",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_issuing_NOC_no_objection_certificate_for_obtaining_passport.pdf",
+    "category": "Teaching",
+    "sub_category": "Certificate"
+  },
+  {
+    "id": 15,
+    "name": "Application for allotment or change of residential accommodation",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_allotment_or_change_of_residential_accommodation.pdf",
+    "category": "Teaching",
+    "sub_category": "Accommodation"
+  },
+
+  {
+    "id": 12,
+    "name": "Sterilisation Certificate",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Sterilisation_certificate.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Sterilisation_certificate.pdf",
+    "category": "Non-Teaching",
+    "sub_category": "Certificate"
+  },
+  {
+    "id": 11,
+    "name": "Retention of Lien",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Retention_of_lien.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Retention_of_lien.pdf",
+    "category": "Non-Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 10,
+    "name": "Request for grant of financial incentives for pursuing small family norms",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/small_family_incentives.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Request_for_grant_of_financial_incentives_for_pursuing_small_family_norms.pdf",
+    "category": "Non-Teaching",
+    "sub_category": null
+  },
+  {
+    "id": 8,
+    "name": "Proforma for issue of records",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Proforma_for_issue_of_records.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_for_issue_of_records.pdf",
+    "category": "Non-Teaching",
+    "sub_category": "Proforma"
+  },
+  {
+    "id": 9,
+    "name": "Proforma to accompany with the application to be forwarded for outside employment",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Proforma_to_accompany_with_the_application_to_be_forwarded_for_outside_employment.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_to_accompany_with_the_application_to_be_forwarded_for_outside_employment.pdf",
+    "category": "Non-Teaching",
+    "sub_category": "Proforma"
+  },
+  {
+    "id": 6,
+    "name": "Proforma for consideration of re-engagement after superannuation",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Proforma_for_consideration_of_re-engagement_after_superannuation.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Proforma_for_consideration_of_re-engagement_after_superannuation.pdf",
+    "category": "Non-Teaching",
+    "sub_category": "Proforma"
+  },
+  {
+    "id": 5,
+    "name": "Hostel allotment form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/hostel_allotment_form.pdf",
+    "category": "Student",
+    "sub_category": null
+  },
+  {
+    "id": 4,
+    "name": "Caution money form",
+    "doc": null,
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Caution_money_form.pdf",
+    "category": "Student",
+    "sub_category": null
+  },
+  {
+    "id": 3,
+    "name": "Student Registration Form (Library)",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Student_Registration_Form_Library.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Student_Registration_Form_Library.pdf",
+    "category": "Student",
+    "sub_category": null
+  },
+  {
+    "id": 2,
+    "name": "Application for Migration, Degree, Duplicate Certificate etc",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_for_Migration_Degree_Duplicate_Certificate_etc.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_Migration_Degree_Duplicate_Certificate_etc.pdf",
+    "category": "Student",
+    "sub_category": "Certificate"
+  },
+  {
+    "id": 1,
+    "name": "Application for child care leave",
+    "doc": "https://namaste.bhu.edu.in/media/forms/doc/Application_for_child_care_leave.doc",
+    "pdf": "https://namaste.bhu.edu.in/media/forms/pdf/Application_for_child_care_leave.pdf",
+    "category": "Teaching",
+    "sub_category": "Leave"
   }
 ]

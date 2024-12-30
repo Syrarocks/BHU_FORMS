@@ -1,24 +1,29 @@
 import React, { useState } from "react";
 import { Segment, Menu, Grid } from "semantic-ui-react";
-import jsonData from "./totalforms.json";
+import totalForms from "./totalforms.json";
 
 const Form = () => {
   const [activeItem, setActiveItem] = useState("Teaching Form");
   const [selectedDocument, setSelectedDocument] = useState(null);
 
-  const handleItemClick = (e, { name }) => setActiveItem(name);
-  const handleLinkClick = (link) => setSelectedDocument(link);
+  const handleItemClick = (e, { name }) => {
+    setActiveItem(name);
+    setSelectedDocument(null); // Close the currently open PDF
+  };
+
+  const handlePDFClick = (pdfLink) => setSelectedDocument(pdfLink);
+  const handleCloseViewer = () => setSelectedDocument(null);
 
   const styles = {
     bigContainer: {
       padding: "20px",
       maxWidth: "1660px",
-      margin: "auto",
-      height: "85vh",
+      margin: "130px auto",
+      height: "280vh",
       display: "flex",
     },
     formContainer: {
-      width: "900px",
+      width: "700px",
       padding: "20px",
       textAlign: "left",
       marginRight: "20px",
@@ -43,22 +48,59 @@ const Form = () => {
     block8: { backgroundColor: "#D4D4D4aa" },
     iframe: {
       width: "100%",
-      height: "100%",
+      height: "50%", // Adjusted height for the iframe to make it shorter
+      border: "1px solid #000",
+      marginTop: "18px",
+    },
+    viewerContainer: {
+      position: "relative",
+      width: "100%",
+      height: "80%", // Reduced height of the PDF viewer
+    },
+    closeButton: {
+      position: "absolute",
+      top: "-16px",
+      right: "-17px",
+      backgroundColor: "#f44336",
+      color: "#fff",
       border: "none",
+      borderRadius: "50%",
+      width: "30px",
+      height: "30px",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+      cursor: "pointer",
+      boxShadow: "0 2px 4px rgba(0, 0, 0, 0.2)",
+    },
+    closeIcon: {
+      fontSize: "16px",
+      fontWeight: "bold",
+      lineHeight: "16px",
     },
   };
 
-  const colorBlocks = jsonData.map((item, index) => ({
-    id: index + 1,
+  // Filter forms based on activeItem category
+  const filteredForms = totalForms
+    .filter((form) => form.pdf)
+    .filter((form) => {
+      if (activeItem === "Teaching Form") return form.category === "Teaching";
+      if (activeItem === "Non-Teaching Form")
+        return form.category === "Non-Teaching";
+      if (activeItem === "Students Form") return form.category === "Student";
+      return false;
+    });
+
+  const colorBlocks = filteredForms.map((item, index) => ({
+    id: item.id,
+    name: item.name,
     style: styles[`block${(index % 8) + 1}`],
     doc: item.doc,
     pdf: item.pdf,
-    name: item.name,
   }));
 
   return (
     <Segment style={styles.bigContainer}>
-      {/* Left container for form navigation */}
       <div style={styles.formContainer}>
         <Menu pointing>
           <Menu.Item
@@ -84,11 +126,26 @@ const Form = () => {
               <div style={{ ...styles.colorBlock, ...block.style }}>
                 <span>{block.name}</span>
                 <div>
-                  <a href="#" onClick={() => handleLinkClick(block.doc)}>
-                    Document
-                  </a>
-                  {" | "}
-                  <a href="#" onClick={() => handleLinkClick(block.pdf)}>
+                  {block.doc && (
+                    <>
+                      <a
+                        href={block.doc}
+                        download
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Document
+                      </a>
+                      {" | "}
+                    </>
+                  )}
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handlePDFClick(block.pdf);
+                    }}
+                  >
                     PDF
                   </a>
                 </div>
@@ -98,16 +155,26 @@ const Form = () => {
         </div>
       </div>
 
-      {/* Right container for PDF viewer */}
-      <div style={{ flex: 2, height: "95%" }}>
+      <div style={{ flex: 2, height: "80%" }}>
+        {" "}
+        {/* Adjusted height here */}
         {selectedDocument ? (
-          <iframe
-            src={selectedDocument}
-            title="Document Viewer"
-            style={styles.iframe}
-          />
+          <div style={styles.viewerContainer}>
+            <button
+              style={styles.closeButton}
+              onClick={handleCloseViewer}
+              title="Close Viewer"
+            >
+              <span style={styles.closeIcon}>×</span>
+            </button>
+            <iframe
+              src={selectedDocument}
+              title="Document Viewer"
+              style={styles.iframe}
+            />
+          </div>
         ) : (
-          <p>Select a document to view here.</p>
+          <p>Select a PDF to view here.</p>
         )}
       </div>
     </Segment>
